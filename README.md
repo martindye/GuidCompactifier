@@ -12,3 +12,5 @@ This method simply increases the chance that you can throw a parity exception ra
 Note that the last character is the one that's adjusted, so if that's incorrect, then the parity may fail for any part.
 
 When there's a parity issue, an exception is thrown, and the routine tries to identify where the corruption has occurred (you need to use a proportionally spaced font).
+
+Note - if this needs to be used in a web app, some base 64 characters should be swapped for web friendly ones.
